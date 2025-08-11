@@ -2,6 +2,14 @@
 for i in range(ord('a'), ord('z') + 1):
     print(chr(i), end=' ')
 
+// 2. 리스트 컴프리헨션 사용
+s = input()
+
+# a부터 z까지 각 알파벳의 개수를 세어 리스트 만들기
+result = [str(s.count(chr(ord('a') + i))) for i in range(26)]
+
+print(' '.join(result))
+
 alphabet = []
 # 'a'의 아스키 코드부터 'z'의 아스키 코드까지 반복
 for i in range(ord('a'), ord('z') + 1):
