@@ -8,8 +8,8 @@
 
 | 멤버 | 언어 | GitHub |
 |------|------|---------|
-| **silverkkang** | Python | [@silverkkang](https://github.com/silverkkang) |
-| **sumin-world** | Rust | [@sumin-world](https://github.com/sumin-world) |
+| **강은서** | Python | [@silverkkang](https://github.com/silverkkang) |
+| **김수민** | Rust | [@sumin-world](https://github.com/sumin-world) |
 
 ## 📚 스터디 목표
 
