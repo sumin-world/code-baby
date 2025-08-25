@@ -22,21 +22,19 @@
 
 ```
 code-baby/
-├── week01/
-│   ├── 1000/          # A+B 문제
+├── 2025-08/
+│   ├── boj_10828/     # 스택 문제
 │   │   ├── README.md
 │   │   ├── python.py   # Python 솔루션 (silverkkang)
 │   │   └── rust.rs     # Rust 솔루션 (sumin-world)
-│   └── 1001/          # A-B 문제
-│       ├── README.md
-│       ├── python.py
-│       └── rust.rs
-├── week02/
-│   ├── 10828/         # 스택 문제
+│   ├── boj_11279/     # 최대 힙 문제
 │   │   ├── README.md
 │   │   ├── python.py
 │   │   └── rust.rs
-│   └── ...
+│   └── boj_1927/      # 최소 힙 문제
+│       ├── README.md
+│       ├── python.py
+│       └── rust.rs
 └── README.md
 ```
 
@@ -66,7 +64,7 @@ cd code-baby
 4. 코드 리뷰 및 피드백
 
 ### 3. 기여 방법
-1. 새로운 브랜치 생성: `git checkout -b feature/week01-1000`
+1. 새로운 브랜치 생성: `git checkout -b feature/boj-10828`
 2. 솔루션 작성 및 커밋
 3. Pull Request 생성
 4. 코드 리뷰 후 머지
@@ -75,8 +73,48 @@ cd code-baby
 
 ### 완료된 문제
 
-- [ ] **2025.08**
-  - [O] BOJ 1927
-  - [O] BOJ 11729
-  - [O] BOJ 10828 - 스택
-  - [O] TBD
+- **2025년 8월**
+  - [x] BOJ 1927 - 최소 힙
+  - [x] BOJ 11279 - 최대 힙  
+  - [ ] BOJ 10828 - 스택 (진행중)
+
+## 🛠️ 개발 환경
+
+### Python (silverkkang)
+- Python 3.8+
+- 추천 에디터: VSCode, PyCharm
+- 스타일 가이드: PEP 8
+
+### Rust (sumin-world)  
+- Rust 1.70+
+- 추천 에디터: VSCode with rust-analyzer
+- 스타일 가이드: rustfmt
+
+## 📝 커밋 컨벤션
+
+```
+feat: BOJ 1000 Python 솔루션 추가
+fix: BOJ 10828 Rust 솔루션 시간 초과 수정
+docs: 스택 문제 README 업데이트
+style: Python 코드 포맷팅 적용
+refactor: Rust 코드 최적화
+```
+
+## 🎯 학습 리소스
+
+### 알고리즘 기초
+- [백준 온라인 저지](https://www.acmicpc.net/)
+- [알고리즘 문제해결전략](http://book.algospot.com/)
+- [코딩테스트 대비 문제집](https://github.com/tony9402/baekjoon)
+
+### 언어별 자료
+#### Python
+- [Python 공식 문서](https://docs.python.org/3/)
+- [파이썬 알고리즘 인터뷰](https://github.com/onlybooks/algorithm-interview)
+
+#### Rust
+- [Rust 공식 문서](https://doc.rust-lang.org/)
+- [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
+- [The Rust Programming Language](https://doc.rust-lang.org/book/)
+
+**함께 성장하는 알고리즘 스터디, Code Baby**
